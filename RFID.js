@@ -40,7 +40,6 @@
      * @extends webduino.Module
      */
     function RFID(board) {
-      console.log("debug rfid")
       Module.call(this);
   
       this._board = board;
