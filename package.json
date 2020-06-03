@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-rfid",
+  "version": "1.0.0",
+  "description": "RFID Module for Webduino",
+  "main": "RFID.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "rfid"
+  ],
+  "dependencies": {
+    "webduino-js": "0.x"
+  }
+}

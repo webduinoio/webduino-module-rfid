@@ -1,0 +1,22 @@
+{
+    "types": [
+        "rfid_new",
+        "rfid_enter",
+        "rfid_uid",
+        "rfid_if",
+        "rfid_leave",
+        "rfid_stopread"
+    ],
+    "category": "catMenu4",
+    "scripts": [
+        "blockly/blocks.js",
+        "blockly/javascript.js"
+    ],
+    "dependencies": [
+        "RFID.js",
+        "RFID-blockly.js"
+    ],
+    "msg": "blockly/msg",
+    "blocksMsg": "blockly/msg/blocks",
+    "toolbox": "blockly/toolbox.xml"
+}

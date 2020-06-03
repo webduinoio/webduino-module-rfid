@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-rfid",
+  "description": "RFID Module for Webduino",
+  "main": "RFID.js",
+  "authors": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "rfid"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
