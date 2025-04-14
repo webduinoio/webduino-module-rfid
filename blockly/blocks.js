@@ -23,7 +23,7 @@ Blockly.Blocks['rfid_new'] = {
         this.setOutput(true);
         this.setColour(230);
         this.setTooltip('');
-        this.setHelpUrl(mainUrl + 'basic/sensor/rfid.html' + utmUrl);
+        this.setHelpUrl(Blockly.Msg.WEBDUINO_RFID_URL_NEW);
     }
 };
 
@@ -38,7 +38,7 @@ Blockly.Blocks['rfid_enter'] = {
         this.setNextStatement(true);
         this.setColour(65);
         this.setTooltip('');
-        this.setHelpUrl(mainUrl + 'basic/sensor/rfid.html' + utmUrl);
+        this.setHelpUrl(Blockly.Msg.WEBDUINO_RFID_URL_ENTER);
     }
 };
 
@@ -50,7 +50,7 @@ Blockly.Blocks['rfid_uid'] = {
         this.setOutput(true);
         this.setTooltip('');
         this.setColour(35);
-        this.setHelpUrl(mainUrl + 'basic/sensor/rfid.html' + utmUrl);
+        this.setHelpUrl(Blockly.Msg.WEBDUINO_RFID_URL_UID);
     }
 };
 
@@ -66,7 +66,7 @@ Blockly.Blocks['rfid_if'] = {
         this.setNextStatement(true);
         this.setTooltip('');
         this.setColour(35);
-        this.setHelpUrl(mainUrl + 'basic/sensor/rfid.html' + utmUrl);
+        this.setHelpUrl(Blockly.Msg.WEBDUINO_RFID_URL_IF);
     }
 };
 
@@ -82,7 +82,7 @@ Blockly.Blocks['rfid_leave'] = {
         this.setNextStatement(true);
         this.setTooltip('');
         this.setColour(65);
-        this.setHelpUrl(mainUrl + 'basic/sensor/rfid.html' + utmUrl);
+        this.setHelpUrl(Blockly.Msg.WEBDUINO_RFID_URL_LEAVE);
     }
 };
 
@@ -95,6 +95,6 @@ Blockly.Blocks['rfid_stopread'] = {
         this.setNextStatement(true);
         this.setColour(65);
         this.setTooltip('');
-        this.setHelpUrl(mainUrl + 'basic/sensor/rfid.html' + utmUrl);
+        this.setHelpUrl(Blockly.Msg.WEBDUINO_RFID_URL_STOPREAD);
     }
 };
